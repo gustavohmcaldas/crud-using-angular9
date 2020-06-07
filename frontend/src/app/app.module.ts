@@ -26,6 +26,7 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { MatTableModule } from '@angular/material/table'
 import { MatToolbarModule } from '@angular/material/toolbar';
+import { ProductUpdateComponent } from './components/product/product-update/product-update.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +38,8 @@ import { MatToolbarModule } from '@angular/material/toolbar';
     ProductCrudComponent,
     RedDirective,
     ProductCreateComponent,
-    ProductReadComponent
+    ProductReadComponent,
+    ProductUpdateComponent
   ],
   imports: [
     BrowserModule,
